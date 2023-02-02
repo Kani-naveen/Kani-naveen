@@ -23,16 +23,14 @@ public class SeleniumTest {
 	
 	driver.navigate().to("https://data.stag.triomics.in/login");
 	driver.manage().window().maximize();
-driver.findElement(By.xpath("//*[@type='text']")).sendKeys("alit.edc@mailinator.com");
+/*driver.findElement(By.xpath("//*[@type='text']")).sendKeys("alit.edc@mailinator.com");
 Thread.sleep(4000);
 
 driver.findElement(By.xpath("//*[@class='MuiButton-label']")).click();
 		
 	driver.findElement(By.xpath("//*[@type='password']")).sendKeys("Hello@123");
 	
-	driver.findElement(By.xpath("//*[@class='MuiButton-label']")).click();
-	
-	
+	driver.findElement(By.xpath("//*[@class='MuiButton-label']")).click();*/
 	
 	
 	System.out.println(driver.getTitle());
